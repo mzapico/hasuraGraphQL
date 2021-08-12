@@ -1,0 +1,7 @@
+table:
+  name: JiraInstance
+  schema: Jira
+configuration:
+  custom_column_names:
+    id: instance_id
+  custom_root_fields: {}

@@ -1,0 +1,3 @@
+table:
+  name: JiraInstance
+  schema: public

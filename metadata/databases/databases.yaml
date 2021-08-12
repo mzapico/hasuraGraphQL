@@ -1,1 +1,8 @@
-[]
+- name: kailash
+  kind: postgres
+  configuration:
+    connection_info:
+      database_url: postgresql://doadmin:a0itdg0y0vj5knu9@kailash-do-user-9530878-0.b.db.ondigitalocean.com:25060/defaultdb
+      isolation_level: read-committed
+      use_prepared_statements: false
+  tables: "!include kailash/tables/tables.yaml"

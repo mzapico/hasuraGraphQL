@@ -1,0 +1,17 @@
+table:
+  name: Customer
+  schema: Clients
+configuration:
+  custom_column_names:
+    id: customer_id
+  custom_root_fields: {}
+object_relationships:
+- name: CustomerName
+  using:
+    manual_configuration:
+      column_mapping:
+        id: customer_id
+      insertion_order: null
+      remote_table:
+        name: JiraInstance
+        schema: Jira
